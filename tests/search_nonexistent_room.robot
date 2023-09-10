@@ -5,12 +5,8 @@ Test Setup      Dado que eu acesse o GEP e faça o login pelo navegador
 Test Teardown   Fechar o navegador
 
 *** Test Cases ***   
-Verificar se ao ter pelo menos 1 sala criada ela pode ser deletada
+Verificar se uma sala invalida pode ser encotrada
     Dado que logue na pagina
     E clique em salas na navbar
-    Então delete primera sala 
-Verificar se ao canceler um sala de ser deletada ela permanece na grid
-    Dado que logue na pagina
-    E clique em salas na navbar
-    Então cancele a deleção de uma sala
+    Então pesquise uma sala por um dado invalido
     

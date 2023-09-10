@@ -13,6 +13,14 @@ Verificar se ao precher corretamete os campos do crud de salas uma sala é criad
     E clique em salas na navbar
     Quando clique no botão adicinar na grid
     E clique no botão adicinar baia
-    Enatão prencher os campos do formulario e verifique 1 sala esperada
+    Enatão prencher os campos do formulario e verifique 1 sala com baia esperada
+
+
+Verificar se ao precher corretamete os campos do crud de salas uma sala é criada sem baia
+    Dado que logue na pagina
+    E clique em salas na navbar
+    Quando clique no botão adicinar na grid
+    Enatão prencher os campos do formulario e verifique 1 sala sem baia
     
+
 

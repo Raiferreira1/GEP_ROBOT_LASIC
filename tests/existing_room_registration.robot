@@ -5,12 +5,14 @@ Test Setup      Dado que eu acesse o GEP e faça o login pelo navegador
 Test Teardown   Fechar o navegador
 
 *** Test Cases ***   
-Verificar se ao ter pelo menos 1 sala criada ela pode ser deletada
+Cadastrar sala com nome existente
     Dado que logue na pagina
     E clique em salas na navbar
-    Então delete primera sala 
-Verificar se ao canceler um sala de ser deletada ela permanece na grid
+    Quando clique no botão adicinar na grid
+    Então cadastra sala com nome existente
+
+Cadastrar sala com sigla existente
     Dado que logue na pagina
     E clique em salas na navbar
-    Então cancele a deleção de uma sala
-    
+    Quando clique no botão adicinar na grid
+    Então cadastra sala com sigla existente
